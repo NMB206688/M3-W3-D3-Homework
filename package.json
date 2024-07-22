@@ -1,0 +1,14 @@
+{
+  "name": "sass-homework",
+  "version": "1.0.0",
+  "description": "SASS Homework Project",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch scss:css"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}

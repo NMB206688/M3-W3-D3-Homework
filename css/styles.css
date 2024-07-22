@@ -1,0 +1,96 @@
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(218, 170, 14);
+  padding: 1em;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  margin: 0 1em;
+}
+header nav ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  padding: 2em;
+}
+main #intro-text {
+  background-color: rgb(212, 213, 216);
+  padding: 2em;
+  text-align: center;
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #intro-text span {
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1em;
+}
+main #intro-text h3 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+main #intro-text p {
+  margin-bottom: 2em;
+}
+main #intro-text .submit-buttton {
+  background-color: rgb(218, 170, 14);
+  color: rgb(49, 49, 48);
+  border: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+main #intro-image {
+  width: 50%;
+}
+main #intro-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer {
+  background-color: rgb(218, 170, 14);
+  color: black;
+  text-align: left;
+  padding: 1em;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

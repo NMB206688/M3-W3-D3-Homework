@@ -1,0 +1,93 @@
+@import 'colors';
+@import 'nav';
+
+// Global styles
+body {
+    font-family: Arial, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $yellow;
+    padding: 1em;
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0 1em;
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
+            font-weight: bold;
+        }
+    }
+}
+
+main {
+    display: flex;
+    padding: 2em;
+
+    #intro-text {
+        background-color: $gray-light;
+        padding: 2em;
+        text-align: center;
+        width: 50%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            font-family: 'Sacramento', cursive;
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 1em;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 1em;
+        }
+
+        p {
+            margin-bottom: 2em;
+        }
+
+        .submit-buttton {
+            background-color: $yellow;
+            color: $dark-gray;
+            border: none;
+            padding: 1em 2em;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    }
+
+    #intro-image {
+        width: 50%;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}
+
+footer {
+    background-color: $yellow;
+    color: black;
+    text-align: left;
+    padding: 1em;
+    font-weight: bold;
+}

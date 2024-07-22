@@ -1,0 +1,21 @@
+@import 'colors';
+
+// nav.scss
+
+nav {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin: 0 1em;
+
+            a {
+                text-decoration: none;
+                color: $white; // Use $white variable from colors.scss
+            }
+        }
+    }
+}
